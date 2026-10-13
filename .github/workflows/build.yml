@@ -1,0 +1,17 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and self-test
+        run: ./build-app.sh
+      - name: Check bundled dog artwork
+        run: |
+          test -s build/Pet.app/Contents/Resources/pet-dog-atlas.png
+          test ! -e build/Pet.app/Contents/Resources/pet-atlas.webp

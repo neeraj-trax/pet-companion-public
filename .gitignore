@@ -1,0 +1,6 @@
+.build/
+build/
+*.xcodeproj
+.DS_Store
+# Legacy local sprite: never commit or bundle
+Assets/pet-atlas.webp
