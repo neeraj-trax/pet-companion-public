@@ -50,4 +50,4 @@ File promises from some apps, including Chrome and Photos, are not yet supported
 
 ## Reuse
 
-This repository is source-available, but no open-source license has been granted. You may download and run the official release for personal use. Please ask before redistributing the source code or dog artwork.
+This repository is source-available, but no open-source license has been granted. You may download, run, and share the official Pet.dmg for personal use. Please ask before reusing or redistributing the source code or dog artwork separately.
